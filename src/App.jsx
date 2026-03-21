@@ -243,7 +243,7 @@ export default function App() {
       <nav className={`navbar${scrolled ? ' scrolled' : ''}`}>
         <div className="nav-inner">
           <a href={CV_SITE_URL} className="nav-logo" aria-label="Back to CV">
-            <TahLogo size={36} color="#fff"/>
+            <TahLogo size={120} color="#fff"/>
             <span className="nav-logo-text">WORKS</span>
           </a>
           <ul className="nav-links">
@@ -381,7 +381,7 @@ export default function App() {
       <footer className="footer">
         <div className="container footer-inner">
           <a href={CV_SITE_URL} className="footer-logo" aria-label="Back to CV">
-            <TahLogo size={32} color="rgba(255,255,255,0.5)"/>
+            <TahLogo size={80} color="rgba(255,255,255,0.5)"/>
           </a>
           <span className="footer-sep">·</span>
           <span>© 2026 Tudor-Andrei Hălășag</span>
