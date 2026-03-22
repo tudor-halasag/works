@@ -96,7 +96,7 @@ button { cursor: pointer; font-family: var(--fb); border: none; background: none
 }
 .nav-logo-img-link:hover { opacity: 0.75; }
 .nav-logo-text-link {
-  font-family: var(--fm); font-size: 1.1rem; font-weight: 700;
+  font-family: var(--fm); font-size: 0.85rem; font-weight: 700;
   letter-spacing: 0.28em; color: var(--blue);
   text-decoration: none; transition: opacity 0.2s;
 }
