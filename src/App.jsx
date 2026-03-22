@@ -243,10 +243,10 @@ export default function App() {
       <nav className={`navbar${scrolled ? ' scrolled' : ''}`}>
         <div className="nav-inner">
           <div className="nav-logo-wrap">
-            <a href="/" className="nav-logo-img-link" aria-label="Home">
-              <TahLogo size={120} color="#fff"/>
+            <a href="https://tudor-halasag.github.io/works/" className="nav-logo-img-link" aria-label="Home">
+              <TahLogo size={180} color="#fff"/>
             </a>
-            <a href="/" className="nav-logo-text-link" aria-label="Home">WORKS</a>
+            <a href="https://tudor-halasag.github.io/works/" className="nav-logo-text-link" aria-label="Home">WORKS</a>
           </div>
           <ul className="nav-links">
             {NAV_LINKS.map(({ id, label }) => (
@@ -380,7 +380,7 @@ export default function App() {
       {/* FOOTER */}
       <footer className="footer">
         <div className="container footer-inner">
-          <a href="/" className="footer-logo" aria-label="Home">
+          <a href="https://tudor-halasag.github.io/works/" className="footer-logo" aria-label="Home">
             <TahLogo size={80} color="rgba(255,255,255,0.5)"/>
           </a>
           <span className="footer-sep">·</span>
