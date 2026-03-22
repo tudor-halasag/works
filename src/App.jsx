@@ -244,7 +244,7 @@ export default function App() {
         <div className="nav-inner">
           <div className="nav-logo-wrap">
             <a href="https://tudor-halasag.github.io/works/" className="nav-logo-img-link" aria-label="Home">
-              <TahLogo size={180} color="#fff"/>
+              <TahLogo size={120} color="#fff"/>
             </a>
             <a href="https://tudor-halasag.github.io/works/" className="nav-logo-text-link" aria-label="Home">WORKS</a>
           </div>
